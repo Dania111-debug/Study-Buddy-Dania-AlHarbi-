@@ -1,3 +1,3 @@
 def add_task(tasks, n):
-    tasks.append(n)
+    tasks.append(name)
     return tasks
