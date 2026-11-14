@@ -1,6 +1,6 @@
 def add_task(tasks, name):
     """Add a task name to the tasks list."""
-    if name == "":
+    if name.strip() == "":
         print("Invalid task name")
         return tasks
     tasks.append(name)
